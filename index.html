@@ -55,7 +55,8 @@
   /* ── NAV ── */
   .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 24px;
     align-items: center;
     margin-bottom: 48px;
   }
@@ -65,6 +66,9 @@
     font-size: 22px;
     letter-spacing: -0.02em;
     letter-spacing: -0.04em;
+    line-height: 1.25;
+    padding-bottom: 6px;
+    overflow: visible;
     color: var(--text);
   }
   .nav-logo span { color: var(--muted); }
@@ -528,7 +532,6 @@
   <!-- NAV -->
   <nav class="nav">
     <div class="nav-logo">Ritik-sochega-title<span></span></div>
-    <div class="nav-right" id="nav-right">color</div>
   </nav>
 
   <!-- ══════════ INTRO ══════════ -->
